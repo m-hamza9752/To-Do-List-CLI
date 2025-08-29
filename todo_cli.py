@@ -85,13 +85,13 @@ def clear_screen():
 def show_menu():
     """Display the main menu"""
     print("\n" + "=" * 40)
-    print("           🎯 TO-DO LIST 🎯")
+    print("            TO-DO LIST CLI - MADE BY MUHAMMAD HAMZA")
     print("=" * 40)
-    print("1. ➕ Add a Task")
-    print("2. 👀 View Tasks")
-    print("3. 🗑️  Remove a Task")
-    print("4. ✅ Mark Task as Complete/Incomplete")
-    print("5. 🚪 Exit")
+    print("1. Add a Task")
+    print("2. View Tasks")
+    print("3. Remove a Task")
+    print("4. Mark Task as Complete/Incomplete")
+    print("5. Exit")
     print("=" * 40)
 
 def get_user_choice() -> int:
